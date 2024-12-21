@@ -231,6 +231,29 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
 
+~
+
+### 10. **Car Evaluation Dataset**
+
+- **Description**: Contains data about car evaluations based on various attributes, with a focus on safety, maintenance costs, and overall acceptability.
+- **Use Cases**: Classification tasks, decision tree modeling, and feature importance analysis.
+
+- **Data Dictionary**:
+  - **Buying**: Buying price (values: vhigh, high, med, low).
+  - **Maint**: Maintenance cost (values: vhigh, high, med, low).
+  - **Doors**: Number of doors (values: 2, 3, 4, 5more).
+  - **Persons**: Capacity in terms of persons to carry (values: 2, 4, more).
+  - **Lug_boot**: Size of luggage boot (values: small, med, big).
+  - **Safety**: Estimated safety of the car (values: low, med, high).
+  - **Class**: Overall evaluation of the car (values: unacc, acc, good, vgood).
+
+- **File Reference**: [car_evaluation.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/car_evaluation.csv)
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/car_evaluation.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+
 
 ---
 
