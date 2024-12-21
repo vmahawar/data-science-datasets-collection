@@ -58,6 +58,17 @@ This repository provides datasets that:
   print(df.head())
   ```  
 
+### 5. **Titanic Dataset**
+- **Description**: Classic dataset containing details of Titanic passengers, including their survival status, class, age, and more.
+- **Use Cases**: Classification tasks, survival analysis, and feature engineering.
+- **File Reference**:
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/titanic.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```  
+
 ---
 
 ## 🧩 Contributing
