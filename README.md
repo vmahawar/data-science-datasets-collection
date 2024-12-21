@@ -165,6 +165,31 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
+### 8. **Bike Sharing Dataset**
+- **Description**: Contains data on bike-sharing systems, including features such as date, season, weather, and the count of bikes rented.
+- **Use Cases**: Time-series analysis, regression modeling, and demand forecasting.
+- **Data Dictionary**:
+  - **Datetime**: Date and time of the bike rentals.
+  - **Season**: Season of the year (1 = spring, 2 = summer, 3 = fall, 4 = winter).
+  - **Holiday**: Whether the day is a holiday (1 = yes, 0 = no).
+  - **Workingday**: Whether the day is a working day (1 = yes, 0 = no).
+  - **Weather**: Weather condition (e.g., clear, misty, rainy).
+  - **Temp**: Temperature in Celsius.
+  - **Humidity**: Relative humidity.
+  - **Windspeed**: Wind speed.
+  - **Casual**: Number of casual (non-registered) users who rented bikes.
+  - **Registered**: Number of registered users who rented bikes.
+  - **Count**: Total number of bike rentals.
+- **File Reference**: [bikesharing.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/bikesharing.csv)
+   ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/bikesharing.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
+
 ---
 
 ## 🧩 Contributing
