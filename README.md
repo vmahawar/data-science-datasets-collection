@@ -95,6 +95,23 @@ This repository provides datasets that:
     print(iris_df.head())
     ```
 
+### 7. **Media Company Dataset**
+- **Description**: Contains data related to content performance and marketing metrics for a media company. The dataset includes details like impressions, clicks, conversions, and spends for different campaigns.
+- **Use Cases**: Exploratory data analysis, campaign optimization, and predictive modeling.
+- **Data Dictionary**:
+  - **Impressions**: Number of times the content was shown.
+  - **Clicks**: Number of times the content was clicked.
+  - **Conversions**: Number of successful actions taken by users (e.g., purchases, sign-ups).
+  - **Spend**: Total money spent on the campaign.
+  - **CTR**: Click-through rate, calculated as (Clicks / Impressions).
+- **File Reference**:
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/mediacompany.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
+
 ---
 
 ## 🧩 Contributing
