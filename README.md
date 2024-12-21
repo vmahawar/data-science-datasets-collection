@@ -68,6 +68,32 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```  
+  
+### 6. **Iris Dataset**
+- **Description**: A classic dataset containing measurements of iris flowers (sepal length, sepal width, petal length, petal width) and their species (Setosa, Versicolor, Virginica).
+- **Use Cases**: Classification, clustering, and visualization.
+- **File References**:
+  - **From CSV File**:
+    ```python
+    import pandas as pd
+    url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv'
+    df = pd.read_csv(url)
+    print(df.head())
+    ```
+  - **From Scikit-learn Library**:
+    ```python
+    from sklearn.datasets import load_iris
+    import pandas as pd
+
+    # Load the Iris dataset from sklearn
+    iris = load_iris()
+
+    # Convert to a DataFrame
+    iris_df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+    iris_df['target'] = iris.target
+
+    print(iris_df.head())
+    ```
 
 ---
 
