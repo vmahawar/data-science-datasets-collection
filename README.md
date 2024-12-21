@@ -17,12 +17,35 @@ This repository provides datasets that:
 ### 1. **Heart Disease Dataset**
 - **Description**: Contains medical data used to predict the likelihood of heart disease in a patient.
 - **Use Cases**: Classification, predictive modeling, and exploratory data analysis.
-- **File Reference**: `heart_disease.csv`
+- **File Reference**:
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/heart_disease.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
 
 ### 2. **Housing Prices Dataset**
 - **Description**: Includes various features affecting housing prices in a region, useful for regression tasks.
 - **Use Cases**: Regression modeling, feature engineering, and visualization.
-- **File Reference**: `housing_prices.csv`
+- **File Reference**:
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/housing_prices.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
+
+### 3. **Loans Dataset**
+- **Description**: Features financial data used to assess loan eligibility and default risk.
+- **Use Cases**: Classification, predictive modeling, and risk assessment.
+- **File Reference**:
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/loans.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
 
 ---
 
