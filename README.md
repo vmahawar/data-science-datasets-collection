@@ -49,24 +49,6 @@ This repository provides datasets that:
 
 ---
 
-## 🚀 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/data-science-datasets-collection.git
-   ```
-2. Navigate to the dataset folder and explore the files:
-   ```bash
-   cd data-science-datasets-collection
-   ```
-3. Load the datasets into your preferred environment (e.g., Python, R, Excel):
-   ```python
-   import pandas as pd
-   data = pd.read_csv('heart_disease.csv')
-   print(data.head())
-   ```
-
----
-
 ## 🧩 Contributing
 Contributions are welcome! If you have a dataset to share or suggestions to improve the repository:
 1. Fork the repository.
