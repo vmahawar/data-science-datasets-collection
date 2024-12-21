@@ -253,7 +253,29 @@ This repository provides datasets that:
   url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/car_evaluation.csv'
   df = pd.read_csv(url)
   print(df.head())
+  ```
 
+### 11. **Reliance Stock Dataset**
+
+- **Description**: Historical stock data of Reliance Industries, including daily open, high, low, and closing prices, along with trading volume. This dataset is used for time-series analysis and stock price forecasting.
+- **Use Cases**: Time-series forecasting, stock price prediction, financial trend analysis, and LSTM-based deep learning projects.
+
+- **Data Dictionary**:
+  - **Date**: The date of the stock trading day.
+  - **Open**: The opening price of the stock.
+  - **High**: The highest price of the stock during the trading day.
+  - **Low**: The lowest price of the stock during the trading day.
+  - **Close**: The closing price of the stock.
+  - **Adj Close**: Adjusted closing price accounting for splits and dividends.
+  - **Volume**: The number of shares traded during the trading day.
+
+- **File Reference**: [reliance_stock.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/reliance_stock.csv)
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/reliance_stock.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
 
 ---
 
