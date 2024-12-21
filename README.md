@@ -189,6 +189,48 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```
+~
+
+### 9. **Telecom Churn Dataset**
+
+- **Description**: Contains customer data, internet service details, and overall churn status for a telecom company. It integrates multiple dimensions, including customer demographics, service usage, and churn status.
+- **Use Cases**: Classification tasks, churn prediction, customer segmentation, and retention strategy modeling.
+- **Data Dictionary**:
+  - **CustomerID**: Unique identifier for each customer.
+  - **Gender**: Gender of the customer (Male, Female).
+  - **SeniorCitizen**: Whether the customer is a senior citizen (1 = Yes, 0 = No).
+  - **Partner**: Whether the customer has a partner (Yes, No).
+  - **Dependents**: Whether the customer has dependents (Yes, No).
+  - **Tenure**: Number of months the customer has stayed with the company.
+  - **PhoneService**: Whether the customer has a phone service (Yes, No).
+  - **MultipleLines**: Whether the customer has multiple lines (Yes, No, No phone service).
+  - **InternetService**: Type of internet service (DSL, Fiber optic, None).
+  - **OnlineSecurity**: Whether the customer has online security service (Yes, No, No internet service).
+  - **OnlineBackup**: Whether the customer has online backup service (Yes, No, No internet service).
+  - **DeviceProtection**: Whether the customer has device protection service (Yes, No, No internet service).
+  - **TechSupport**: Whether the customer has tech support service (Yes, No, No internet service).
+  - **StreamingTV**: Whether the customer has streaming TV service (Yes, No, No internet service).
+  - **StreamingMovies**: Whether the customer has streaming movies service (Yes, No, No internet service).
+  - **Contract**: Customer’s contract type (Month-to-month, One year, Two year).
+  - **PaperlessBilling**: Whether the customer uses paperless billing (Yes, No).
+  - **PaymentMethod**: Payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic)).
+  - **MonthlyCharges**: Monthly charges for the customer.
+  - **TotalCharges**: Total charges paid by the customer.
+  - **Churn**: Whether the customer churned (Yes, No).
+
+- **Supporting Files**:
+  - **telecom_churn_data.csv**: Main data file.
+  - **telecom_churn_customer_data.csv**: Supplementary customer demographic data.
+  - **telecom_churn_internet_data.csv**: Supplementary internet service details.
+  - **telecom_churn_datadictionary.csv**: Data dictionary for the dataset.
+
+- **File Reference**: [telecom_churn_data.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/telecom_churn_data.csv)
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/telecom_churn_data.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+
 
 ---
 
