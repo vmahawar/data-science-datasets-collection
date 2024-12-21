@@ -32,34 +32,8 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```
-- **Description**: Contains medical data used to predict the likelihood of heart disease in a patient.
-- **Use Cases**: Classification, predictive modeling, and exploratory data analysis.
-- **Data Dictionary**:
-  - **Age**: Age of the patient.
-  - **Sex**: Gender of the patient (1 = male, 0 = female).
-  - **Chest Pain Type**: Type of chest pain experienced (e.g., typical angina, atypical angina).
-  - **Resting Blood Pressure**: Blood pressure at rest.
-  - **Cholesterol**: Serum cholesterol levels in mg/dl.
-  - **Max Heart Rate Achieved**: Maximum heart rate achieved during exercise.
-  - **Target**: Diagnosis of heart disease (1 = disease, 0 = no disease).
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/heart_disease.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
-- **Description**: Contains medical data used to predict the likelihood of heart disease in a patient.
-- **Use Cases**: Classification, predictive modeling, and exploratory data analysis.
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/heart_disease.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
 
-
+~
 
 ### 2. **Housing Prices Dataset**
 - **Description**: Includes various features affecting housing prices in a region, useful for regression tasks.
@@ -76,31 +50,8 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```
-- **Description**: Includes various features affecting housing prices in a region, useful for regression tasks.
-- **Use Cases**: Regression modeling, feature engineering, and visualization.
-- **Data Dictionary**:
-  - **Lot Area**: Lot size in square feet.
-  - **Overall Quality**: Rates the overall material and finish of the house (1 to 10).
-  - **Year Built**: Year the house was constructed.
-  - **Sale Price**: Price of the property in dollars.
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/housing_prices.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
-- **Description**: Includes various features affecting housing prices in a region, useful for regression tasks.
-- **Use Cases**: Regression modeling, feature engineering, and visualization.
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/housing_prices.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
 
-
+~
 
 ### 3. **Loans Dataset**
 - **Description**: Features financial data used to assess loan eligibility and default risk.
@@ -117,31 +68,8 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```
-- **Description**: Features financial data used to assess loan eligibility and default risk.
-- **Use Cases**: Classification, predictive modeling, and risk assessment.
-- **Data Dictionary**:
-  - **Loan Amount**: The total amount of loan applied for.
-  - **Loan Term**: Duration of the loan in months.
-  - **Credit Score**: Applicant's credit score.
-  - **Loan Status**: Status of the loan (approved or rejected).
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/loans.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
-- **Description**: Features financial data used to assess loan eligibility and default risk.
-- **Use Cases**: Classification, predictive modeling, and risk assessment.
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/loans.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
 
-
+~
 
 ### 4. **Google Play Store Dataset**
 - **Description**: Provides data on various apps available in the Google Play Store, including features like category, rating, and number of installs.
@@ -159,32 +87,8 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```
-- **Description**: Provides data on various apps available in the Google Play Store, including features like category, rating, and number of installs.
-- **Use Cases**: Classification, clustering, exploratory data analysis, and recommendation systems.
-- **Data Dictionary**:
-  - **App**: Name of the application.
-  - **Category**: Category of the application (e.g., Education, Games).
-  - **Rating**: Average user rating of the app (out of 5).
-  - **Installs**: Number of times the app has been installed.
-  - **Price**: Price of the app in dollars.
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/google_play_store.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
-- **Description**: Provides data on various apps available in the Google Play Store, including features like category, rating, and number of installs.
-- **Use Cases**: Classification, clustering, exploratory data analysis, and recommendation systems.
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/google_play_store.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
 
-
+~
 
 ### 5. **Titanic Dataset**
 - **Description**: Classic dataset containing details of Titanic passengers, including their survival status, class, age, and more.
@@ -209,30 +113,8 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```
-- **Description**: Classic dataset containing details of Titanic passengers, including their survival status, class, age, and more.
-- **Use Cases**: Classification tasks, survival analysis, and feature engineering.
-- **Data Dictionary**:
-  - **PassengerId**: Unique identifier for each passenger.
-  - **Survived**: Survival status (1 = survived, 0 = not survived).
-  - **Pclass**: Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd).
-  - **Name**: Name of the passenger.
-  - **Sex**: Gender of the passenger.
-  - **Age**: Age of the passenger.
-  - **SibSp**: Number of siblings or spouses aboard the Titanic.
-  - **Parch**: Number of parents or children aboard the Titanic.
-  - **Ticket**: Ticket number.
-  - **Fare**: Fare paid by the passenger.
-  - **Cabin**: Cabin number.
-  - **Embarked**: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
-- **File Reference**:
-  ```python
-  import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/titanic.csv'
-  df = pd.read_csv(url)
-  print(df.head())
-  ```
 
-
+~
 
 ### 6. **Iris Dataset**
 - **Description**: A classic dataset containing measurements of iris flowers (sepal length, sepal width, petal length, petal width) and their species (Setosa, Versicolor, Virginica).
@@ -244,83 +126,27 @@ This repository provides datasets that:
   - **Petal Width**: Width of the petal in cm.
   - **Species**: The species of the iris flower (Setosa, Versicolor, Virginica).
 - **File References**: [iris.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv)
-  - **From CSV File**:
-    ```python
-    import pandas as pd
-    url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv'
-    df = pd.read_csv(url)
-    print(df.head())
-    ```
-  - **From Scikit-learn Library**:
-    ```python
-    from sklearn.datasets import load_iris
-    import pandas as pd
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
 
-    # Load the Iris dataset from sklearn
-    iris = load_iris()
+  **From Scikit-learn Library**:
+  ```python
+  from sklearn.datasets import load_iris
+  import pandas as pd
 
-    # Convert to a DataFrame
-    iris_df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
-    iris_df['target'] = iris.target
+  # Load the Iris dataset from sklearn
+  iris = load_iris()
 
-    print(iris_df.head())
-    ```
-- **Description**: A classic dataset containing measurements of iris flowers (sepal length, sepal width, petal length, petal width) and their species (Setosa, Versicolor, Virginica).
-- **Use Cases**: Classification, clustering, and visualization.
-- **Data Dictionary**:
-  - **Sepal Length**: Length of the sepal in cm.
-  - **Sepal Width**: Width of the sepal in cm.
-  - **Petal Length**: Length of the petal in cm.
-  - **Petal Width**: Width of the petal in cm.
-  - **Species**: The species of the iris flower (Setosa, Versicolor, Virginica).
-- **File References**:
-  - **From CSV File**:
-    ```python
-    import pandas as pd
-    url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv'
-    df = pd.read_csv(url)
-    print(df.head())
-    ```
-  - **From Scikit-learn Library**:
-    ```python
-    from sklearn.datasets import load_iris
-    import pandas as pd
+  # Convert to a DataFrame
+  iris_df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+  iris_df['target'] = iris.target
+  ```
 
-    # Load the Iris dataset from sklearn
-    iris = load_iris()
-
-    # Convert to a DataFrame
-    iris_df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
-    iris_df['target'] = iris.target
-
-    print(iris_df.head())
-    ```
-- **Description**: A classic dataset containing measurements of iris flowers (sepal length, sepal width, petal length, petal width) and their species (Setosa, Versicolor, Virginica).
-- **Use Cases**: Classification, clustering, and visualization.
-- **File References**:
-  - **From CSV File**:
-    ```python
-    import pandas as pd
-    url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv'
-    df = pd.read_csv(url)
-    print(df.head())
-    ```
-  - **From Scikit-learn Library**:
-    ```python
-    from sklearn.datasets import load_iris
-    import pandas as pd
-
-    # Load the Iris dataset from sklearn
-    iris = load_iris()
-
-    # Convert to a DataFrame
-    iris_df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
-    iris_df['target'] = iris.target
-
-    print(iris_df.head())
-    ```
-
-
+~
 
 ### 7. **Media Company Dataset**
 - **Description**: Contains data related to content performance and marketing metrics for a media company. The dataset includes details like impressions, clicks, conversions, and spends for different campaigns.
@@ -331,7 +157,7 @@ This repository provides datasets that:
   - **Conversions**: Number of successful actions taken by users (e.g., purchases, sign-ups).
   - **Spend**: Total money spent on the campaign.
   - **CTR**: Click-through rate, calculated as (Clicks / Impressions).
-- **File Reference**:
+- **File Reference**: [mediacompany.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/mediacompany.csv)
   ```python
   import pandas as pd
   url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/mediacompany.csv'
@@ -360,6 +186,6 @@ Special thanks to the data science community for inspiring this repository. The 
 ---
 
 ### 🔗 Stay Connected
-- [LinkedIn](https://www.linkedin.com/in/vijay-mahawar/)
-- [Portfolio](https://www.vijay.mahawar.net/projects)
-- [GitHub](https://github.com/vmahawar)
+- [LinkedIn](https://www.linkedin.com/in/your-profile)
+- [Portfolio](https://your-portfolio.com)
+- [GitHub](https://github.com/your-username)
