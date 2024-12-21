@@ -47,6 +47,17 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+### 4. **Google Play Store Dataset**
+- **Description**: Provides data on various apps available in the Google Play Store, including features like category, rating, and number of installs.
+- **Use Cases**: Classification, clustering, exploratory data analysis, and recommendation systems.
+- **File Reference**:
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/google_play_store.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```  
+
 ---
 
 ## 🧩 Contributing
