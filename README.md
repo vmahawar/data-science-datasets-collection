@@ -377,6 +377,37 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
+### 15. Home Loan Dataset
+
+- **Description**: This dataset contains information about loan applications, including loan amount, interest rate, employment details, income, and loan status. The target variable indicates whether the loan was fully paid or charged off. This dataset is ideal for binary classification tasks in the financial domain.
+- **Use Cases**: Classification tasks, risk analysis, exploratory data analysis, and feature engineering.
+
+- **Data Dictionary**:
+  - **id**: Unique identifier for each loan application.
+  - **loan_amnt**: Loan amount requested by the applicant (numerical).
+  - **funded_amnt**: Amount of loan funded (numerical).
+  - **int_rate**: Interest rate on the loan (percentage).
+  - **installment**: Monthly installment amount (numerical).
+  - **emp_length**: Length of the applicant's employment (e.g., `<1 year`, `10+ years`).
+  - **annual_inc**: Applicant's annual income (numerical).
+  - **loan_status**: Target variable (`Fully Paid` = loan repaid, `Charged Off` = loan defaulted).
+
+- **File Reference**: [home-loan.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/home-loan.csv)
+  ```python
+  import pandas as pd
+
+  # URL for the dataset
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/home-loan.csv'
+
+  # Load the dataset
+  df = pd.read_csv(url)
+
+  # Print the first 5 rows to verify
+  print(df.head())
+  ```
+
 ---
 
 ## 🧩 Contributing
