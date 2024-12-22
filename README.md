@@ -325,12 +325,22 @@ This repository provides datasets that:
   - **Sulphates**: Potassium sulfate concentration, which affects the wine's flavor.
   - **Alcohol**: Alcohol content in the wine.
   - **Quality**: Target variable, a score ranging from 0 to 10 (higher is better).
+  - **Type**: Indicates whether the wine is red or white.
+  - **Id**: Unique identifier for each record in the dataset.
 
 - **File Reference**: [wine.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/wine.csv)
   ```python
   import pandas as pd
+  # List of column names (14 columns)
+  column_names = ['Fixed acidity', 'Volatile acidity', 'Citric acid', 'Residual sugar','Chlorides', 'Free sulfur dioxide', 'Total sulfur dioxide', 'Density', 'pH', 'Sulphates', 'Alcohol', 'Quality', 'Type', 'Id']
+
+  # URL for the dataset
   url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/wine.csv'
-  df = pd.read_csv(url)
+
+  # Load the dataset using the column names  
+  df = pd.read_csv(url, usecols=column_names)
+  
+  # Print the first 5 rows to verify
   print(df.head())
   ```
 
