@@ -332,14 +332,15 @@ This repository provides datasets that:
   ```python
   import pandas as pd
   # List of column names (14 columns)
-  column_names = ['Fixed acidity', 'Volatile acidity', 'Citric acid', 'Residual sugar','Chlorides', 'Free sulfur dioxide', 'Total sulfur dioxide', 'Density', 'pH', 'Sulphates', 'Alcohol', 'Quality', 'Type', 'Id']
-
+  column_names = [
+      'Fixed acidity', 'Volatile acidity', 'Citric acid', 'Residual sugar', 
+      'Chlorides', 'Free sulfur dioxide', 'Total sulfur dioxide', 'Density', 
+      'pH', 'Sulphates', 'Alcohol', 'Quality', 'Type', 'Id'
+  ]
   # URL for the dataset
   url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/wine.csv'
-
-  # Load the dataset using the column names  
-  df = pd.read_csv(url, usecols=column_names)
-  
+  # Load the dataset without headers and assign column names
+  df = pd.read_csv(url, header=None, names=column_names)
   # Print the first 5 rows to verify
   print(df.head())
   ```
