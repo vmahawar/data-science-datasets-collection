@@ -125,10 +125,10 @@ This repository provides datasets that:
   - **Petal Length**: Length of the petal in cm.
   - **Petal Width**: Width of the petal in cm.
   - **Species**: The species of the iris flower (Setosa, Versicolor, Virginica).
-- **File References**: [iris.csv](https://github.com/vmahawar/data-science-datasets-collection/iris-dataset/raw/main/iris.csv)
+- **File References**: [iris.csv](https://github.com/vmahawar/data-science-datasets-collection/blob/main/iris-dataset/iris.csv)
   ```python
   import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/iris-dataset/raw/main/iris.csv'
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris-dataset/iris.csv'
   df = pd.read_csv(url)
   print(df.head())
   ```
