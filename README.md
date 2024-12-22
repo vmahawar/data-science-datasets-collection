@@ -345,6 +345,38 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
+### 14. Diabetes Dataset
+
+- **Description**: This dataset contains information about various health metrics and medical test results that can be used to predict the onset of diabetes. The target variable indicates whether the patient has diabetes (1) or not (0). This dataset is widely used for binary classification problems, especially in healthcare-related machine learning projects.
+- **Use Cases**: Classification tasks, feature engineering, exploratory data analysis, and predictive modeling.
+
+- **Data Dictionary**:
+  - **Pregnancies**: Number of times the patient has been pregnant.
+  - **Glucose**: Plasma glucose concentration after 2 hours in an oral glucose tolerance test.
+  - **BloodPressure**: Diastolic blood pressure (mm Hg).
+  - **SkinThickness**: Triceps skin fold thickness (mm).
+  - **Insulin**: 2-Hour serum insulin (mu U/ml).
+  - **BMI**: Body mass index (weight in kg/(height in m)^2).
+  - **DiabetesPedigreeFunction**: Diabetes pedigree function (a function that scores the likelihood of diabetes based on family history).
+  - **Age**: Age of the patient (years).
+  - **Outcome**: Target variable (1 = diabetes positive, 0 = diabetes negative).
+
+- **File Reference**: [diabetes.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/diabetes.csv)
+  ```python
+  import pandas as pd
+
+  # URL for the dataset
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/diabetes.csv'
+
+  # Load the dataset
+  df = pd.read_csv(url)
+
+  # Print the first 5 rows to verify
+  print(df.head())
+  ```
+
 ---
 
 ## 🧩 Contributing
