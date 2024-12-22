@@ -128,7 +128,7 @@ This repository provides datasets that:
 - **File References**: [iris.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv)
   ```python
   import pandas as pd
-  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/iris.csv'
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/iris-dataset/raw/main/iris.csv'
   df = pd.read_csv(url)
   print(df.head())
   ```
@@ -273,6 +273,30 @@ This repository provides datasets that:
   ```python
   import pandas as pd
   url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/reliance_stock.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
+
+### 12. Pulsar Star Dataset
+
+- **Description**: This dataset contains information about candidates for pulsar stars collected during the High Time Resolution Universe Survey. Pulsars are a type of neutron star and are discovered through their unique radio emission patterns. The dataset is used to classify pulsar stars versus non-pulsar candidates based on several signal-processing metrics.
+- **Use Cases**: Classification tasks, exploratory data analysis, feature engineering, and model evaluation.
+
+- **Data Dictionary**:
+  - **Mean of the integrated profile**: Mean value of the integrated radio frequency signal.
+  - **Standard deviation of the integrated profile**: Spread of values for the integrated signal.
+  - **Excess kurtosis of the integrated profile**: Measure of the "tailedness" of the distribution of the integrated signal.
+  - **Skewness of the integrated profile**: Measure of the asymmetry of the distribution of the integrated signal.
+  - **Mean of the DM-SNR curve**: Mean signal-to-noise ratio curve for the dispersion measure.
+  - **Standard deviation of the DM-SNR curve**: Spread of values in the signal-to-noise ratio curve.
+  - **Excess kurtosis of the DM-SNR curve**: Tailedness of the signal-to-noise ratio curve.
+  - **Skewness of the DM-SNR curve**: Asymmetry in the signal-to-noise ratio curve.
+  - **Class**: Target variable (1 = pulsar star, 0 = non-pulsar candidate).
+
+- **File Reference**: [pulsar_star_dataset.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/pulsar_star_dataset.csv)
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/pulsar_star_dataset.csv'
   df = pd.read_csv(url)
   print(df.head())
   ```
