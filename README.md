@@ -255,6 +255,8 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
 ### 11. **Reliance Stock Dataset**
 
 - **Description**: Historical stock data of Reliance Industries, including daily open, high, low, and closing prices, along with trading volume. This dataset is used for time-series analysis and stock price forecasting.
@@ -277,6 +279,8 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
 ### 12. Pulsar Star Dataset
 
 - **Description**: This dataset contains information about candidates for pulsar stars collected during the High Time Resolution Universe Survey. Pulsars are a type of neutron star and are discovered through their unique radio emission patterns. The dataset is used to classify pulsar stars versus non-pulsar candidates based on several signal-processing metrics.
@@ -297,6 +301,35 @@ This repository provides datasets that:
   ```python
   import pandas as pd
   url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/pulsar_star_dataset.csv'
+  df = pd.read_csv(url)
+  print(df.head())
+  ```
+
+~
+
+### 13. Wine Quality Dataset
+
+- **Description**: This dataset contains information about physicochemical attributes (numerical values) of red and white wine samples, along with a quality score based on sensory data. It is widely used for regression and classification tasks to predict wine quality based on its chemical properties.
+- **Use Cases**: Regression, classification, exploratory data analysis, and feature importance analysis.
+
+- **Data Dictionary**:
+  - **Fixed acidity**: Amount of non-volatile acids (e.g., tartaric acid) in wine.
+  - **Volatile acidity**: Amount of volatile acids (e.g., acetic acid) that contribute to wine's sourness.
+  - **Citric acid**: Amount of citric acid, which adds freshness and flavor.
+  - **Residual sugar**: Amount of sugar left after fermentation.
+  - **Chlorides**: Salt concentration in wine.
+  - **Free sulfur dioxide**: SO2 that is not bound to other molecules, preventing microbial growth.
+  - **Total sulfur dioxide**: Total amount of SO2 in wine.
+  - **Density**: Density of the wine, influenced by sugar, alcohol, and other components.
+  - **pH**: Acidity or alkalinity of wine.
+  - **Sulphates**: Potassium sulfate concentration, which affects the wine's flavor.
+  - **Alcohol**: Alcohol content in the wine.
+  - **Quality**: Target variable, a score ranging from 0 to 10 (higher is better).
+
+- **File Reference**: [wine.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/wine.csv)
+  ```python
+  import pandas as pd
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/wine.csv'
   df = pd.read_csv(url)
   print(df.head())
   ```
