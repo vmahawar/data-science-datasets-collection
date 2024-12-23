@@ -387,12 +387,12 @@ This repository provides datasets that:
 - **Data Dictionary**:
   - **id**: Unique identifier for each loan application.
   - **loan_amnt**: Loan amount requested by the applicant (numerical).
-  - **funded_amnt**: Amount of loan funded (numerical).
+  - **funded_amnt**: Amount that was sanctioned by the bank (numerical).
   - **int_rate**: Interest rate on the loan (percentage).
   - **installment**: Monthly installment amount (numerical).
   - **emp_length**: Length of the applicant's employment (e.g., `<1 year`, `10+ years`).
   - **annual_inc**: Applicant's annual income (numerical).
-  - **loan_status**: Target variable (`Fully Paid` = loan repaid, `Charged Off` = loan defaulted).
+  - **loan_status**: Classified as whether it is "High Risk", "Low Risk" and "Medium Risk".
 
 - **File Reference**: [home-loan.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/home-loan.csv)
   ```python
