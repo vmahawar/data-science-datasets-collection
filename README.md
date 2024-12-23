@@ -309,38 +309,37 @@ This repository provides datasets that:
 
 ### 13. Wine Quality Dataset
 
-- **Description**: This dataset contains information about physicochemical attributes (numerical values) of red and white wine samples, along with a quality score based on sensory data. It is widely used for regression and classification tasks to predict wine quality based on its chemical properties.
-- **Use Cases**: Regression, classification, exploratory data analysis, and feature importance analysis.
+### Wine Dataset
+
+- **Description**: This dataset contains information about different wine samples and their chemical properties. It includes details such as acidity, sugar content, pH levels, and quality ratings. The dataset is widely used for classification tasks to predict wine quality based on its features.
+- **Use Cases**: Classification tasks, feature importance analysis, exploratory data analysis, and regression modeling.
 
 - **Data Dictionary**:
-  - **Fixed acidity**: Amount of non-volatile acids (e.g., tartaric acid) in wine.
-  - **Volatile acidity**: Amount of volatile acids (e.g., acetic acid) that contribute to wine's sourness.
-  - **Citric acid**: Amount of citric acid, which adds freshness and flavor.
-  - **Residual sugar**: Amount of sugar left after fermentation.
-  - **Chlorides**: Salt concentration in wine.
-  - **Free sulfur dioxide**: SO2 that is not bound to other molecules, preventing microbial growth.
-  - **Total sulfur dioxide**: Total amount of SO2 in wine.
-  - **Density**: Density of the wine, influenced by sugar, alcohol, and other components.
-  - **pH**: Acidity or alkalinity of wine.
-  - **Sulphates**: Potassium sulfate concentration, which affects the wine's flavor.
-  - **Alcohol**: Alcohol content in the wine.
-  - **Quality**: Target variable, a score ranging from 0 to 10 (higher is better).
-  - **Type**: Indicates whether the wine is red or white.
-  - **Id**: Unique identifier for each record in the dataset.
+  - **fixed acidity**: The fixed acidity of the wine (e.g., tartaric acid content).
+  - **volatile acidity**: Acetic acid content, which can add an unpleasant vinegar taste.
+  - **citric acid**: The amount of citric acid present, which adds freshness to wines.
+  - **residual sugar**: The amount of sugar remaining after fermentation.
+  - **chlorides**: Salt content in the wine.
+  - **free sulfur dioxide**: The free form of SO₂, which prevents microbial growth and oxidation.
+  - **total sulfur dioxide**: Total SO₂ content, including bound and free forms.
+  - **density**: The density of the wine, which can indicate sugar and alcohol content.
+  - **pH**: A measure of the wine’s acidity.
+  - **sulphates**: A wine additive that contributes to sulfur dioxide levels.
+  - **alcohol**: Alcohol content by volume.
+  - **quality**: Quality score of the wine (0 to 10).
+  - **red**: Indicator for red wine (1 = red wine, 0 = not red wine).
+  - **white**: Indicator for white wine (1 = white wine, 0 = not white wine).
 
 - **File Reference**: [wine.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/wine.csv)
   ```python
   import pandas as pd
-  # List of column names (14 columns)
-  column_names = [
-      'Fixed acidity', 'Volatile acidity', 'Citric acid', 'Residual sugar', 
-      'Chlorides', 'Free sulfur dioxide', 'Total sulfur dioxide', 'Density', 
-      'pH', 'Sulphates', 'Alcohol', 'Quality', 'Type', 'Id'
-  ]
+
   # URL for the dataset
   url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/wine.csv'
-  # Load the dataset without headers and assign column names
-  df = pd.read_csv(url, header=None, names=column_names)
+
+  # Load the dataset
+  df = pd.read_csv(url)
+
   # Print the first 5 rows to verify
   print(df.head())
   ```
