@@ -416,6 +416,45 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
+### 16. Online Retail Dataset
+
+- **Description**: This dataset contains transactional data from a UK-based online retailer. It includes information about invoices, products, quantities sold, customer details, and geographical locations of transactions. This dataset is ideal for tasks such as customer segmentation, sales analysis, market basket analysis, and recommendation system development.
+
+- **Use Cases**: 
+  - Customer segmentation and clustering.
+  - Market basket analysis for association rule mining.
+  - Sales and revenue trend analysis.
+  - Anomaly detection for fraud mitigation.
+  - Building recommendation systems.
+  - Forecasting sales and inventory.
+
+- **Data Dictionary**:
+  - **InvoiceNo**: Unique identifier for each invoice (categorical).
+  - **StockCode**: Unique identifier for each product (categorical).
+  - **Description**: Description of the product (text).
+  - **Quantity**: Number of units purchased (numerical).
+  - **InvoiceDate**: Date and time of the transaction (datetime).
+  - **UnitPrice**: Price per unit of the product (numerical).
+  - **CustomerID**: Unique identifier for the customer (categorical, some missing values).
+  - **Country**: Country where the order was placed (categorical).
+
+- **File Reference**: [online-retail.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/online-retail.csv)
+
+  ```python
+  import pandas as pd
+
+  # URL for the dataset
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/online-retail.csv'
+
+  # Load the dataset
+  df = pd.read_csv(url, encoding='latin1')
+
+  # Print the first 5 rows to verify
+  print(df.head())
+  ```
+
 ---
 
 ## 🧩 Contributing
