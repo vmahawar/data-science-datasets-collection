@@ -36,13 +36,22 @@ This repository provides datasets that:
 ~
 
 ### 2. **Housing Prices Dataset**
-- **Description**: Includes various features affecting housing prices in a region, useful for regression tasks.
-- **Use Cases**: Regression modeling, feature engineering, and visualization.
+- **Description**: This dataset contains features influencing housing prices, providing a foundation for regression and machine learning tasks.
+- **Use Cases**: Predictive modeling, feature engineering, and exploratory data analysis.
 - **Data Dictionary**:
-  - **Lot Area**: Lot size in square feet.
-  - **Overall Quality**: Rates the overall material and finish of the house (1 to 10).
-  - **Year Built**: Year the house was constructed.
-  - **Sale Price**: Price of the property in dollars.
+  - **price**: Description not provided yet. (Data Type: int64)
+  - **area**: Description not provided yet. (Data Type: int64)
+  - **bedrooms**: Description not provided yet. (Data Type: int64)
+  - **bathrooms**: Description not provided yet. (Data Type: int64)
+  - **stories**: Description not provided yet. (Data Type: int64)
+  - **mainroad**: Description not provided yet. (Data Type: object)
+  - **guestroom**: Description not provided yet. (Data Type: object)
+  - **basement**: Description not provided yet. (Data Type: object)
+  - **hotwaterheating**: Description not provided yet. (Data Type: object)
+  - **airconditioning**: Description not provided yet. (Data Type: object)
+  - **parking**: Description not provided yet. (Data Type: int64)
+  - **prefarea**: Description not provided yet. (Data Type: object)
+  - **furnishingstatus**: Description not provided yet. (Data Type: object)
 - **File Reference**: [housing_prices.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/housing_prices.csv)
   ```python
   import pandas as pd
@@ -50,7 +59,7 @@ This repository provides datasets that:
   df = pd.read_csv(url)
   print(df.head())
   ```
-
+  
 ~
 
 ### 3. **Loans Dataset**
