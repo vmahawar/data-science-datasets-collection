@@ -493,7 +493,7 @@ This repository provides datasets that:
 
   # Print the first 5 rows to verify
   print(df.head())
-  `
+  ```
 
 ---  
 
