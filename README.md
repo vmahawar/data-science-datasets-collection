@@ -495,6 +495,41 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
+### 18. Mall Customers Dataset
+
+- **Description**: This dataset contains data about customers of a mall, including demographic details, spending habits, and income levels. It is commonly used for customer segmentation tasks and offers insights into consumer behavior patterns for targeted marketing.
+
+- **Use Cases**:  
+  - Customer segmentation using clustering techniques.  
+  - Analysis of spending patterns across age groups and genders.  
+  - Correlation analysis between annual income and spending scores.  
+  - Identifying high-value customer groups for marketing campaigns.  
+  - Building predictive models for personalized recommendations.
+
+- **Data Dictionary**:  
+  - **CustomerID**: Unique identifier for each customer (categorical).  
+  - **Gender**: Gender of the customer (categorical).  
+  - **Age**: Age of the customer in years (numerical).  
+  - **Annual Income (k$)**: Annual income of the customer in thousand dollars (numerical).  
+  - **Spending Score (1-100)**: Spending score assigned to the customer based on their spending behavior and purchasing habits (numerical).
+
+- **File Reference**: [mall_customers.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/mall_customers.csv)
+
+  ```python
+  import pandas as pd
+
+  # URL for the dataset
+  url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/mall_customers.csv'
+
+  # Load the dataset
+  df = pd.read_csv(url)
+
+  # Print the first 5 rows to verify
+  print(df.head())
+  ```
+
 ---  
 
 
