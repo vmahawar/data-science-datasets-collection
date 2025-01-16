@@ -530,6 +530,74 @@ This repository provides datasets that:
   print(df.head())
   ```
 
+~
+
+### 19. Lead Scoring Dataset
+
+- **Description**:  
+  This dataset is designed for lead scoring and analysis, helping businesses identify which leads are more likely to convert into customers. It includes information on customer demographics, activities, preferences, and lead quality indicators. The dataset is commonly used in marketing analytics and predictive modeling for lead prioritization.
+
+- **Use Cases**:  
+  - Predicting the likelihood of lead conversion using machine learning models.  
+  - Analyzing customer behavior patterns (e.g., time spent on the website, visits).  
+  - Identifying high-quality leads based on activity scores and preferences.  
+  - Segmenting leads based on source, activity level, and demographics.  
+  - Optimizing marketing campaigns by understanding lead origins and preferences.
+
+- **Data Dictionary**:  
+  - **Prospect ID**: Unique identifier for each customer (categorical).  
+  - **Lead Number**: Lead number assigned to each lead procured (numerical).  
+  - **Lead Origin**: Source through which the customer was identified as a lead (categorical).  
+  - **Lead Source**: Indicates the specific source of the lead, such as Google, Organic Search, or Olark Chat (categorical).  
+  - **Do Not Email**: Indicates whether the customer opted out of receiving emails (binary).  
+  - **Do Not Call**: Indicates whether the customer opted out of receiving calls (binary).  
+  - **Converted**: Target variable indicating whether a lead was successfully converted (binary).  
+  - **TotalVisits**: Total number of visits made by the customer to the website (numerical).  
+  - **Total Time Spent on Website**: Total time (in seconds) spent by the customer on the website (numerical).  
+  - **Page Views Per Visit**: Average number of pages viewed per visit by the customer (numerical).  
+  - **Last Activity**: Most recent activity performed by the customer (categorical).  
+  - **Country**: Country of the customer (categorical).  
+  - **Specialization**: Industry domain in which the customer worked (categorical).  
+  - **How did you hear about X Education**: Source from which the customer learned about X Education (categorical).  
+  - **What is your current occupation**: Indicates whether the customer is employed, unemployed, or a student (categorical).  
+  - **What matters most to you in choosing this course**: Indicates the customer’s primary motive for taking the course (categorical).  
+  - **Search**: Indicates whether the customer encountered the course through search (binary).  
+  - **Magazine**: Indicates whether the customer encountered the course through a magazine (binary).  
+  - **Newspaper Article**: Indicates whether the customer encountered the course through a newspaper article (binary).  
+  - **X Education Forums**: Indicates whether the customer encountered the course through forums (binary).  
+  - **Newspaper**: Indicates whether the customer encountered the course through a newspaper (binary).  
+  - **Digital Advertisement**: Indicates whether the customer encountered the course through a digital advertisement (binary).  
+  - **Through Recommendations**: Indicates whether the customer was referred by recommendations (binary).  
+  - **Receive More Updates About Our Courses**: Indicates whether the customer opted for updates about the course (binary).  
+  - **Tags**: Tags assigned to the lead indicating the current status (categorical).  
+  - **Lead Quality**: Quality score assigned to the lead based on data and intuition (categorical).  
+  - **Update me on Supply Chain Content**: Indicates whether the customer opted for supply chain content updates (binary).  
+  - **Get updates on DM Content**: Indicates whether the customer opted for digital marketing content updates (binary).  
+  - **Lead Profile**: A lead-level categorization based on the customer’s profile (categorical).  
+  - **City**: City of the customer (categorical).  
+  - **Asymmetrique Activity Index**: Activity-based index score for the customer (numerical).  
+  - **Asymmetrique Profile Index**: Profile-based index score for the customer (numerical).  
+  - **Asymmetrique Activity Score**: Activity score assigned to the customer (numerical).  
+  - **Asymmetrique Profile Score**: Profile score assigned to the customer (numerical).  
+  - **I agree to pay the amount through cheque**: Indicates whether the customer agreed to pay via cheque (binary).  
+  - **A free copy of Mastering The Interview**: Indicates whether the customer opted for a free copy of "Mastering the Interview" (binary).  
+  - **Last Notable Activity**: Last notable activity performed by the customer (categorical).
+
+- **File Reference**: [lead-scoring.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/lead-scoring.csv)
+
+```python
+import pandas as pd
+
+# URL for the dataset
+url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/lead-scoring.csv'
+
+# Load the dataset
+df = pd.read_csv(url)
+
+# Display the first 5 rows of the dataset
+print(df.head())
+```
+
 ---  
 
 
