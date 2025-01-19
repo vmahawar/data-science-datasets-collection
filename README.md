@@ -598,6 +598,50 @@ df = pd.read_csv(url)
 print(df.head())
 ```
 
+~
+
+### 20. Motion Sensor Dataset
+
+- **Description**:  
+  This dataset contains motion sensor data collected from an MPU6050 sensor. It provides essential insights into various physical activities through accelerometer and gyroscope data. The dataset is designed for real-time activity classification and motion analysis. Applications include fitness tracking, sports performance monitoring, and AI-powered activity recognition systems.
+
+- **Use Cases**:  
+  - Training machine learning models for activity recognition.  
+  - Developing real-time AIoT systems for fitness tracking.  
+  - Analyzing motion patterns for health and performance monitoring.  
+  - Evaluating and predicting physical activities in rehabilitation and sports.  
+
+- **Data Dictionary**:  
+  - **epoch**: Timestamp of the data collection (numerical).  
+  - **Accelerometer_x**: Acceleration along the x-axis (numerical).  
+  - **Accelerometer_y**: Acceleration along the y-axis (numerical).  
+  - **Accelerometer_z**: Acceleration along the z-axis (numerical).  
+  - **Gyroscope_x**: Angular velocity around the x-axis (numerical).  
+  - **Gyroscope_y**: Angular velocity around the y-axis (numerical).  
+  - **Gyroscope_z**: Angular velocity around the z-axis (numerical).  
+  - **Label**: Activity performed (`bench`, `ohp`, `dead`, `squat`, `row`, `rest`) (categorical). Each label represents a specific physical activity:  
+    - `bench`: Bench press.  
+    - `ohp`: Overhead press.  
+    - `dead`: Deadlift.  
+    - `squat`: Squats.  
+    - `row`: Barbell rows.  
+    - `rest`: Inactivity or resting periods.
+
+- **File Reference**: [motion_sensor.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/motion_sensor.csv)
+
+```python
+import pandas as pd
+
+# URL for the dataset
+url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/motion_sensor.csv'
+
+# Load the dataset
+df = pd.read_csv(url)
+
+# Display the first 5 rows of the dataset
+print(df.head())
+```
+
 ---  
 
 
