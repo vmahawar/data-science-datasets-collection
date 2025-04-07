@@ -659,7 +659,7 @@ File Reference: [mental_health.csv](https://github.com/vmahawar/data-science-dat
 
 ```python
 import pandas as pd
-url = 'your_dataset_url_here'
+url = 'https://github.com/vmahawar/data-science-datasets-collection/raw/main/mental_health.csv'
 df = pd.read_csv(url)
 print(df.head())
 ```
