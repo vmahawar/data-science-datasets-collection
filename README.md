@@ -642,6 +642,28 @@ df = pd.read_csv(url)
 print(df.head())
 ```
 
+~
+
+### 21. Mental Health Text Dataset
+
+**Description**: This dataset contains textual data labeled according to indications of mental health concerns, specifically identifying content associated with mental health issues or distress.
+
+**Use Cases**: Sentiment analysis, text classification, NLP-based mental health detection, exploratory data analysis, and machine learning classification tasks.
+
+**Data Dictionary**:
+
+  - **text**: The textual content collected from various sources, potentially containing expressions or indications of mental health conditions or distress. (Data Type: object)
+  - **label**: Binary indicator specifying whether the text indicates a mental health issue (1) or not (0). (Data Type: int64)
+
+File Reference: [mental_health.csv](https://github.com/vmahawar/data-science-datasets-collection/raw/main/mental_health.csv)
+
+```python
+import pandas as pd
+url = 'your_dataset_url_here'
+df = pd.read_csv(url)
+print(df.head())
+```
+
 ---  
 
 
