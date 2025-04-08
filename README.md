@@ -4,6 +4,36 @@ Welcome to the **Data Science Datasets Collection** repository! This is a curate
 
 ---
 
+- [🎯 Purpose](#-purpose)
+- [📂 Available Datasets](#-available-datasets)
+- [Heart Disease Dataset](#1-heart-disease-dataset)
+- [Housing Prices Dataset](#2-housing-prices-dataset)
+- [Loans Dataset](#3-loans-dataset)
+- [Google Play Store Dataset](#4-google-play-store-dataset)
+- [Titanic Dataset](#5-titanic-dataset)
+- [Iris Dataset](#6-iris-dataset)
+- [Media Company Dataset](#7-media-company-dataset)
+- [Bike Sharing Dataset](#8-bike-sharing-dataset)
+- [Telecom Churn Dataset](#9-telecom-churn-dataset)
+- [Car Evaluation Dataset](#10-car-evaluation-dataset)
+- [Reliance Stock Dataset](#11-reliance-stock-dataset)
+- [Pulsar Star Dataset](#12-pulsar-star-dataset)
+- [Wine Quality Dataset](#13-wine-quality-dataset)
+- [Diabetes Dataset](#14-diabetes-dataset)
+- [Home Loan Dataset](#15-home-loan-dataset)
+- [Online Retail Dataset](#16-online-retail-dataset)
+- [Country Dataset](#17-country-dataset)
+- [Mall Customers Dataset](#18-mall-customers-dataset)
+- [Lead Scoring Dataset](#19-lead-scoring-dataset)
+- [Motion Sensor Dataset](#20-motion-sensor-dataset)
+- [Mental Health Text Dataset](#21-mental-health-text-dataset)
+- [🧩 Contributing](#-contributing)
+- [📜 License](#-license)
+- [🌟 Acknowledgments](#-acknowledgments)
+- [🔗 Stay Connected](#-stay-connected)
+
+---
+
 ## 🎯 Purpose
 This repository provides datasets that:
 - Help in building machine learning models.
@@ -13,30 +43,6 @@ This repository provides datasets that:
 ---
 
 ## 📂 Available Datasets
-
-## 📚 Table of Contents
-
-- [Iris Dataset](#iris-dataset)
-- [Bike Sharing Dataset](#bike-sharing-dataset)
-- [Car Evaluation Dataset](#car-evaluation-dataset)
-- [Country Data](#country-data)
-- [Diabetes Dataset](#diabetes-dataset)
-- [Google Play Store Apps](#google-play-store-apps)
-- [Heart Disease Dataset](#heart-disease-dataset)
-- [Home Loan Dataset](#home-loan-dataset)
-- [Housing Prices Dataset](#housing-prices-dataset)
-- [Lead Scoring Dataset](#lead-scoring-dataset)
-- [Loans Dataset](#loans-dataset)
-- [Mall Customers Dataset](#mall-customers-dataset)
-- [Media Company Dataset](#media-company-dataset)
-- [Mental Health Dataset](#mental-health-dataset)
-- [Motion Sensor Data](#motion-sensor-data)
-- [ODI Matches Data (1971-2024)](#odi-matches-data-1971-2024)
-- [Online Retail Dataset](#online-retail-dataset)
-- [Pulsar Star Dataset](#pulsar-star-dataset)
-- [Reliance Stock Data](#reliance-stock-data)
-- [Telecom Churn Customer Data](#telecom-churn-customer-data)
-- [Telecom Churn Data](#telecom-churn-data)
 
 ### 1. **Heart Disease Dataset**
 - **Description**: Contains medical data used to predict the likelihood of heart disease in a patient.
