@@ -14,6 +14,30 @@ This repository provides datasets that:
 
 ## 📂 Available Datasets
 
+## 📚 Table of Contents
+
+- [Iris Dataset](#iris-dataset)
+- [Bike Sharing Dataset](#bike-sharing-dataset)
+- [Car Evaluation Dataset](#car-evaluation-dataset)
+- [Country Data](#country-data)
+- [Diabetes Dataset](#diabetes-dataset)
+- [Google Play Store Apps](#google-play-store-apps)
+- [Heart Disease Dataset](#heart-disease-dataset)
+- [Home Loan Dataset](#home-loan-dataset)
+- [Housing Prices Dataset](#housing-prices-dataset)
+- [Lead Scoring Dataset](#lead-scoring-dataset)
+- [Loans Dataset](#loans-dataset)
+- [Mall Customers Dataset](#mall-customers-dataset)
+- [Media Company Dataset](#media-company-dataset)
+- [Mental Health Dataset](#mental-health-dataset)
+- [Motion Sensor Data](#motion-sensor-data)
+- [ODI Matches Data (1971-2024)](#odi-matches-data-1971-2024)
+- [Online Retail Dataset](#online-retail-dataset)
+- [Pulsar Star Dataset](#pulsar-star-dataset)
+- [Reliance Stock Data](#reliance-stock-data)
+- [Telecom Churn Customer Data](#telecom-churn-customer-data)
+- [Telecom Churn Data](#telecom-churn-data)
+
 ### 1. **Heart Disease Dataset**
 - **Description**: Contains medical data used to predict the likelihood of heart disease in a patient.
 - **Use Cases**: Classification, predictive modeling, and exploratory data analysis.
